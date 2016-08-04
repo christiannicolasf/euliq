@@ -3,12 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.title{
+.text-center{
 	margin-top: 100px;
 }
 
 h1 {
-	color: darkblue;
+	color: SteelBlue;
 	text-align: center;
 }
 
@@ -16,45 +16,54 @@ p {
 	color: darkgrey;
 }
 
-.logo p {
-    color: darkblue;
+
+.navbar-brand p {
+    color: white;
     font-weight: 500;
-    padding: 7px 0px 0px 0px;
     transition: color 600ms;
     webkit-transition: color 600ms;
     text-decoration: none;
-    position: inline;
-     float: left;
+    text-transform: uppercase;
+    color: SteelBlue;
 }
 
-.logo p:hover {
+.navbar-brand p:hover {
     font-weight: 500;
-    color: brown;
+    color: white;
+}
+
+.navbar-brand{
+    margin-bottom: -10px;
 }
 
 .logopic {
-	max-width: 300%;
-    	max-height: 300%;
-    	float: left;
-    	margin: -5px 12px -7px 0px;
-    	padding-bottom: 5px;
+    max-width: 200%;
+    max-height: 200%;
+    padding-left: 100px;
 }
 
 .navbar ul {
-    margin: 0px 20px 0px 0px;
     text-transform: uppercase;
     font-size: 1.5em;
 }
 
-.navbar{
-background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+.navbar-header{
+    margin-right: 100px;
+    margin-left: 20px;
 }
 
+.navbar-nav, .navbar-form{
+    padding-top: 20px;
+}
 
+.my-image{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #foot{
-	background:  WhiteSmoke;
-	text-align: right;
-	padding: 20px 30px 5px 0px;
-	color: darkblue;
+    background:  WhiteSmoke;
+    text-align: right;
+    padding: 20px 30px 5px 0px;
+    color: SteelBlue;;
 }
