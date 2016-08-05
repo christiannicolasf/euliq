@@ -3,8 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.text-center{
-	margin-top: 100px;
+.navbarblank{
+	padding-bottom: 90px;
 }
 
 h1 {
@@ -39,7 +39,7 @@ p {
 .logopic {
     max-width: 200%;
     max-height: 200%;
-    padding-left: 100px;
+    padding-left: 80px;
 }
 
 .navbar ul {
@@ -64,6 +64,11 @@ p {
 #foot{
     background:  WhiteSmoke;
     text-align: right;
-    padding: 20px 30px 5px 0px;
+    heigth: 30px;
+    padding-right: 20px;
     color: SteelBlue;;
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
 }
