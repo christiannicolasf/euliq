@@ -8,14 +8,13 @@
 }
 
 h1 {
-	color: SteelBlue;
-	text-align: center;
+    color: SteelBlue;
+    text-align: center;
 }
 
 p {
-	color: darkgrey;
+    color: darkgrey;
 }
-
 
 .navbar-brand p {
     color: white;
@@ -34,22 +33,19 @@ p {
 
 .navbar-brand{
     margin-bottom: -10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .logopic {
     max-width: 200%;
     max-height: 200%;
-    padding-left: 80px;
+    padding-left: 70px;
 }
 
 .navbar ul {
     text-transform: uppercase;
     font-size: 1.5em;
-}
-
-.navbar-header{
-    margin-right: 100px;
-    margin-left: 20px;
 }
 
 .navbar-nav, .navbar-form{
@@ -71,4 +67,8 @@ p {
    left:0px;
    bottom:0px;
    width:100%;
+}
+
+.navbar-header{
+  margin-left: 5px;
 }
